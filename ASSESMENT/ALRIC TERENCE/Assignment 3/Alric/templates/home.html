@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+
+    <center><h2 class="my-5 text-light">Our Hospitals Branches</h2>
+    </center>
+    <div class="container">
+        <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://customer-care-registry.s3.jp-tok.cloud-object-storage.appdomain.cloud/img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Branch 1</h5>
+                      <a href="/branch/1" class="btn btn-dark w-100">More Deatils</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://customer-care-registry.s3.jp-tok.cloud-object-storage.appdomain.cloud/img2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Branch 2</h5>
+                      <a href="/branch/2" class="btn btn-dark w-100">More Deatils</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://customer-care-registry.s3.jp-tok.cloud-object-storage.appdomain.cloud/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Branch 3</h5>
+                      <a href="/branch/3" class="btn btn-dark w-100">More Deatils</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://customer-care-registry.s3.jp-tok.cloud-object-storage.appdomain.cloud/img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Branch 4</h5>
+                      <a href="/branch/4" class="btn btn-dark w-100">More Deatils</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
